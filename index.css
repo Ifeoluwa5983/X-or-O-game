@@ -1,0 +1,33 @@
+.board{
+    background-color: grey;
+    width: 35%;
+    height: 60%;
+    margin: auto;
+    margin-top: 5%;
+    padding-left: 15px;
+
+}
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+.row{
+    height: 33.3%;
+    width: 103.3%;
+    margin-right: 15px;
+}
+.row div{
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 450%;
+    border: 1px solid black;
+}
+.row div:hover{
+    background-color: grey;
+    cursor: pointer;
+}
